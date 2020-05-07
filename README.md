@@ -11,11 +11,11 @@ In the root folder you could see the PDF with the goal.
 MVC pattern with data providers and autoloading without using external PHP libraries and composer.
 
 - **index.php:** entry point of the app (front controller).
-- **Controller/:** it contains the "Dashboard" controller + the "MainController" (abstract class) that that force its childrens to have an index method as a default method.
-- **Provider/** it contains the data providers + the interface "Countable". 
-- **Model/** it contains classes that are a kind of POJO + the interface "Jsonable".
-- **Lib/** it contains the class for connecting the DB using PDO + a class for rendering the views.
-- **Helper/** it contains classes for facilitate the tasks related dates and data for the chart.
+- **/Controller/:** it contains the "Dashboard" controller + the "MainController" (abstract class) that force its childrens to have an index method as a default method.
+- **/Provider/:** it contains the data providers + the interface "Countable". 
+- **/Model/:** it contains classes that are a kind of POJO + the interface "Jsonable".
+- **/Lib/:** it contains the class for connecting the DB using PDO + a class for rendering the views.
+- **/Helper/:** it contains classes to facilitate tasks related to date and data management for the chart.
 
 
 **Note:** It uses Bootsrap 4 and Jquery for achieving the goal.
